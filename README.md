@@ -18,6 +18,6 @@ install.packages("XLD_0.1.0.tar.gz",type="source",repos=NULL)
 library(XLD)
 # 2. help document 
 help("X_LD")
-# 3. examples
+# 3. run the examples (test.bed, test.bim, and test.fam)
 X_LD(input="test",output="test",population_type = "inbred",autosome=5)
 ```
